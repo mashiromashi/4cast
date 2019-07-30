@@ -56,23 +56,7 @@ class Dashboard extends Component {
   render() {
     return (
       <div className="container">
-        <div className="row">
-          <form>
-            <div className="input-field">
-              <input
-                type="Text"
-                id="search"
-                placeholder="Search"
-                required
-                className="col s6 offset-s6 right-align"
-                value={this.state.search}
-                onChange={this._handleSearchChange}
-                onKeyPress={this._handleOnKeyPress}
-              />
-            </div>
-          </form>
-        </div>
-        <div className="row">
+        <div className="row" style={{ paddingTop: "20px" }}>
           <div className="col s12 ">
             <ul className="tabs">
               <li className="tab col s4 active">

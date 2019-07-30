@@ -5,3 +5,7 @@ ul li a.active {
 ul li.indicator {
     background-color: #3B4252 !important
 }
+
+ul li.tab {
+    padding-top: 10px
+}

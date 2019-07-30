@@ -23,10 +23,10 @@ class ThisWeek extends Component {
 
   render() {
     return (
-      <div>
-        <ul className="row">
+      <div className="row">
+        <ul>
           {this.state.TenDayArray.map(days => {
-            return <li className="col s1">{days.toString()}</li>;
+            return <li style={{ paddingBottom: "10px" }}>{days.toString()}</li>;
           })}
         </ul>
       </div>
