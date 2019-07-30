@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Route, Switch } from "react-router-dom";
-import Dashboard from "../Pages/Dashboard";
+import About from "../Pages/About/About";
+import Dashboard from "../Pages/Dashboard/Dashboard";
 
 class Content extends Component {
   constructor(props) {
@@ -11,6 +12,7 @@ class Content extends Component {
     return (
       <Switch>
         <Route exact path="/" component={Dashboard} />
+        <Route path="/about" component={About} />
       </Switch>
     );
   }

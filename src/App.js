@@ -3,7 +3,7 @@ import "./App.css";
 import M from "materialize-css";
 import { BrowserRouter } from "react-router-dom";
 import Content from "./Route/Content";
-import NavBar from "./Components/NavBar";
+import NavBar from "./Components/NavBar/NavBar";
 
 class App extends Component {
   componentDidMount() {
